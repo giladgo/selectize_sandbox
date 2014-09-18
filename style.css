@@ -1,0 +1,18 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+.my_select {
+  width: 500px;
+}
+
+.selectize-dropdown-content {
+  max-height: 300px;
+}
+
+.selectize-dropdown.plugin-open-up:not(.open-up) {
+  border-top: 0 none;
+}
+.selectize-dropdown.plugin-open-up.open-up {
+  border-bottom: 0 none;
+}
