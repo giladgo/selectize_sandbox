@@ -1,5 +1,6 @@
 body {
   font-family: Helvetica, sans-serif;
+  background-color: #f8f8f8;
 }
 
 .my_select {
@@ -12,7 +13,19 @@ body {
 
 .selectize-dropdown.plugin-open-up:not(.open-up) {
   border-top: 0 none;
+  -webkit-border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
 }
 .selectize-dropdown.plugin-open-up.open-up {
   border-bottom: 0 none;
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+
+}
+
+
+.selectize-control.single.plugin-hide-arrow .selectize-input.dropdown-active:after {
+  display: none;
 }
